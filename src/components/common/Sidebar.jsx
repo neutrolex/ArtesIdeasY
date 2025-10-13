@@ -9,8 +9,7 @@ import {
   ShoppingCart,
   User,
   Users,
-  HardDrive,
-  DollarSign
+  HardDrive
 } from 'lucide-react';
 import { useState } from 'react';
 import logoImage from '../../assets/icono.png';
@@ -76,7 +75,6 @@ const Sidebar = ({ isOpen, onClose, activeSection, onSectionChange }) => {
       items: [
         { id: 'inventario', label: 'Inventario', icon: Package },
         { id: 'activos', label: 'Activos', icon: HardDrive },
-        { id: 'gastos', label: 'Gastos', icon: DollarSign },
         { id: 'produccion', label: 'Producción', icon: Settings },
         { id: 'contratos', label: 'Contratos', icon: FileText }
       ]
